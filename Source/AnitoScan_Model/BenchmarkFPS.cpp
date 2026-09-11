@@ -20,7 +20,7 @@ void ABenchmarkFPS::BeginPlay()
 	if (APlayerController* PC = GetWorld()->GetFirstPlayerController())
 	{
 		PC->ConsoleCommand(TEXT("r.VSync 0"));
-		PC->ConsoleCommand(TEXT("t.MaxFPS 0"));
+		PC->ConsoleCommand(TEXT("t.MaxFPS 1000"));
 		PC->ConsoleCommand(TEXT("r.DontLimitOnBattery 1"));
 	}
 }
