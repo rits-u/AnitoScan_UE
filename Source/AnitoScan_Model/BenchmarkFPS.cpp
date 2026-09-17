@@ -22,6 +22,7 @@ void ABenchmarkFPS::BeginPlay()
 		PC->ConsoleCommand(TEXT("r.VSync 0"));
 		PC->ConsoleCommand(TEXT("t.MaxFPS 1000"));
 		PC->ConsoleCommand(TEXT("r.DontLimitOnBattery 1"));
+		PC->ConsoleCommand(TEXT("LevelEditor.ToggleImmersive"));
 	}
 }
 
