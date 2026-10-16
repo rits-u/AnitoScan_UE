@@ -23,9 +23,11 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-private:
+public:
 	float warmupDuration = 7.0f;
 	float benchmarkDuration = 20.0f;
+
+private:
 	float elapsedTime = 0.0f;
 	int32 frameCount = 0;
 
