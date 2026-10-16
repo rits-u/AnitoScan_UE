@@ -24,8 +24,8 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 private:
-	float warmupDuration = 10.0f;
-	float benchmarkDuration = 30.0f;
+	float warmupDuration = 7.0f;
+	float benchmarkDuration = 20.0f;
 	float elapsedTime = 0.0f;
 	int32 frameCount = 0;
 
